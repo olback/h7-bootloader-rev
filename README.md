@@ -25,4 +25,11 @@
 | 4      | 0x08           | W   | 0x4d, 0x03 | LDO1_CTRL: VLDO1_EN = 1, VLDO1_STBY_EN = 1 |
 | 5      | 0x08           | W   | 0x52, 0x09 | LDO3_VOLT: 1.20V |
 | 6      | 0x08           | W   | 0x53, 0x0f | LDO3_CTRL: VLDO3_EN = 1, VLDO3_STBY_EN = 1, VLDO3_OMODE = 1, VLDO3_LPWR = 1 |
-| ...    | 0x08           | W   |            | There are 12 I²C write calls in the disassembled firmware, this list is incomplete. |
+| 7      | 0x08           | W   | 0x9C, 0x80 | The following writes  can be decoded using the PF1550 datasheet. PRs welcome. |
+| 8      | 0x08           | W   | 0x9E, 0x20 | |
+| 9      | 0x08           | W   | 0x42, 0x02 | |
+| 10     | 0x08           | W   | 0x94, 0xA0 | |
+| 11     | 0x08           | W   | 0x3B, 0x0F | |
+| 12     | 0x08           | W   | 0x35, 0x0F | |
+| 13     | 0x08           | W   | 0x42, 0x01 | This write is not part of the bootloader itself but its sent just before your Arduino code runs. [fixup3V1Rail](https://github.com/arduino/ArduinoCore-mbed/blob/8d5510ad677ff84dcfbc0fe9626c9d1cb4329763/variants/PORTENTA_H7_M7/variant.cpp#L230) |
+
