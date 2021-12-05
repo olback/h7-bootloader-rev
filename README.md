@@ -32,3 +32,7 @@
 | 12     | 0x08           | W   | 0x35, 0x0F | SW1_CTRL: SW1_EN = 1, SW1_STBY_EN = 1, SW1_OMODE = 1, SW1_LPWR = 1 |
 | 13     | 0x08           | W   | 0x42, 0x01 | This write is not part of the bootloader itself but it's sent just before your Arduino code runs. [fixup3V1Rail](https://github.com/arduino/ArduinoCore-mbed/blob/8d5510ad677ff84dcfbc0fe9626c9d1cb4329763/variants/PORTENTA_H7_M7/variant.cpp#L230) |
 
+# Oscillators
+
+The 25MHz and 27MHz oscillators have to be manually enabled by setting the PH1 pin to high.
+
