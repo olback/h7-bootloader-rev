@@ -12,15 +12,17 @@
 
 ## I²C Devices
 
-| Address (7bit) | Device                                   |
-| -------------- | ---------------------------------------- |
-| 0x08           | [NXP PF1550 PMIC](datasheets/PF1550.pdf) |
-| 0x36           | [MAX17262](datasheets/MAX17262.pdf)      |
-| 0x3f           | ANX7625*                                 |
-| 0x48           | [NXP SE050C2](datasheets/SE050.pdf)      |
-| 0x60           | Microchip ATECC608A*                     |
+| Address (7bit) | Device                                            |
+| -------------- | ------------------------------------------------- |
+| 0x08           | [NXP PF1550 PMIC](datasheets/PF1550.pdf)          |
+| 0x36           | [Maxim MAX17262](datasheets/MAX17262.pdf)         |
+| 0x3f           | ANX7625*                                          |
+| 0x48           | [NXP SE050C2**](datasheets/SE050.pdf)             |
+| 0x60           | [Microchip ATECC608A**](datasheets/ATECC608A.pdf) |
 
 \* No datasheet available to the general public.
+
+\** Only a summary "datasheet". 
 
 ## Boot I²C data
 
