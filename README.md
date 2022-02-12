@@ -17,7 +17,7 @@
 | 0x08           | [NXP PF1550 PMIC](datasheets/PF1550.pdf)                     |
 | 0x36           | [Maxim MAX17262](datasheets/MAX17262.pdf)                    |
 | 0x3f           | ANX7625*                                                     |
-| 0x48           | [NXP SE050C2**](datasheets/SE050.pdf) ([docs](https://www.nxp.com/products/security-and-authentication/authentication/edgelock-se050-plug-trust-secure-element-family-enhanced-iot-security-with-maximum-flexibility:SE050?tab=Documentation_Tab)) |
+| 0x48           | [NXP SE050C2**](datasheets/SE050/SE050.pdf) ([AN12514](datasheets/SE050/AN12514.pdf)) ([docs](https://www.nxp.com/products/security-and-authentication/authentication/edgelock-se050-plug-trust-secure-element-family-enhanced-iot-security-with-maximum-flexibility:SE050?tab=Documentation_Tab)) |
 | 0x60           | [Microchip ATECC608A**](datasheets/ATECC608A.pdf) ([docs](https://www.microchip.com/en-us/product/ATECC608A#document-table)) ([lib](https://github.com/MicrochipTech/cryptoauthlib)) |
 
 \* No datasheet available to the general public.
