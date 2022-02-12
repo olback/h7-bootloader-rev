@@ -5,6 +5,7 @@
 1. MCU boots the CM7 core from `0x08000000`
 2. The PMIC is configured
 3. USB DFU is configured
+3. Update vector table to point to user provided handlers.
 4. Jump to `0x08040000` (user code)
 
 
