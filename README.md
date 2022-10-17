@@ -1,5 +1,8 @@
 # [WIP] Arduino Portenta H7 Bootloader Reverse Engineering Project
 
+### The offical bootloader source has been released by Arduino.
+[See the official repo](https://github.com/arduino/mcuboot-arduino-stm32h7).
+
 ## Boot process (non-exhaustive)
 
 1. MCU boots the CM7 core from `0x08000000`
